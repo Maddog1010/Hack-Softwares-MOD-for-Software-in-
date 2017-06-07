@@ -60,41 +60,38 @@
 			<Dependency Software="Operating System">GUI</Dependency>
 			<Category>system</Category>
 		</Feature>
-	</Feature>
-	<Feature Forced="TRUE">
-		<Name>GPS</Name>
-		<Description>This shows where the OS is located.</Description>
-		<DevTime>1</DevTime>
-		<Innovation>1</Innovation>
-		<Usability>2</Usability>
-		<Stability>5</Stability>
-		<CodeArt>0.7</CodeArt>
-		<Dependency Software="Operating System">GUI</Dependency>
-		<Category>system</Category>
-	</Feature>
-</Feature>
-<Feature Forced="TRUE">
-	<Name>Range</Name>
-	<Description>This is how far you can track.</Description>
-	<DevTime>1</DevTime>
-	<Innovation>1</Innovation>
-	<Usability>2</Usability>
-	<Stability>5</Stability>
-	<CodeArt>0.8</CodeArt>
-	<Dependency Software="Operating System">GUI</Dependency>
-	<Category>system</Category>
-</Feature>
-</Feature>
-<Feature From="Range">
-	<Name>Advanced Range</Name>
-	<Description>This is an even larger area for you to track an OS.</Description>
-	<DevTime>2</DevTime>
-	<Innovation>1</Innovation>
-	<Usability>2</Usability>
-	<Stability>5</Stability>
-	<CodeArt>1</CodeArt>
-	<Dependency Software="Operating System">GUI</Dependency>
-	<Category>system</Category>
-</Feature>
+	        <Feature Forced="TRUE">
+		        <Name>GPS</Name>
+		        <Description>This shows where the OS is located.</Description>
+		        <DevTime>1</DevTime>
+	    	        <Innovation>1</Innovation>
+		        <Usability>2</Usability>
+		        <Stability>5</Stability>
+		        <CodeArt>0.7</CodeArt>
+		        <Dependency Software="Operating System">GUI</Dependency>
+		        <Category>system</Category>
+	        </Feature>
+                <Feature Forced="TRUE">
+	               <Name>Range</Name>
+	               <Description>This is how far you can track.</Description>
+	               <DevTime>1</DevTime>
+	               <Innovation>1</Innovation>
+	               <Usability>2</Usability>
+	               <Stability>5</Stability>
+	               <CodeArt>0.8</CodeArt>
+	               <Dependency Software="Operating System">GUI</Dependency>
+	               <Category>system</Category>
+                </Feature>
+                <Feature From="Range">
+	               <Name>Advanced Range</Name>
+	               <Description>This is an even larger area for you to track an OS.</Description>
+	               <DevTime>2</DevTime>
+	               <Innovation>1</Innovation>
+	               <Usability>2</Usability>
+	               <Stability>5</Stability>
+	               <CodeArt>1</CodeArt>
+	               <Dependency Software="Operating System">GUI</Dependency>
+	               <Category>system</Category>
+                </Feature>
 	</Features>
 </SoftwareType>
