@@ -1,0 +1,64 @@
+<SoftwareType>
+	<Name>Computer Freezer</Name>
+	<Category>Virus</Category>
+	<Description>This will freeze an Operating System for an amount of time.</Description>
+	<Random>0.3</Random>
+	<Categories>
+		<Category Name="Hack">
+			<Description>This is a test category</Description>
+			<Popularity>0.4</Popularity>
+			<Retention>0.5</Retention>
+			<TimeScale>0.7</TimeScale>
+			<Iterative>0.35</Iterative>
+			<NameGenerator>Hack</NameGenerator>
+		</Category>
+	</Categories>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>AI</Name>
+			<Description>This is the "brain" of the freezer. It makes it work.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>system</Category>
+		</Feature>
+		<Feature From="AI">
+			<Name>Better AI</Name>
+			<Description>This is an even better AI that makes the Computer Freezer better.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">GUI</Dependency>
+			<Category>system</Category>
+		</Feature>
+		<Feature>
+			<Name>Short Freezer</Name>
+			<Description>This is a basic OS freezer that only freezez the OS for a short amount of time.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">GUI</Dependency>
+			<Category>system</Category>
+		</Feature>
+		<Feature>
+			<Name>Mobile Freezer</Name>
+			<Description>This makes it so you can freeze mobile phones.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">GUI</Dependency>
+			<Category>system</Category>
+		</Feature>
+	</Features>
+</SoftwareType>

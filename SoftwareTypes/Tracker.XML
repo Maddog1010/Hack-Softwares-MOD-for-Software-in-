@@ -1,0 +1,100 @@
+<SoftwareType>
+	<Name>Tracker</Name>
+	<Category>Virus</Category>
+	<Description>This will damage an Operating System.</Description>
+	<Random>0.3</Random>
+	<Categories>
+		<Category Name="Hack">
+			<Description>This is a test category</Description>
+			<Popularity>0.3</Popularity>
+			<Retention>0.5</Retention>
+			<TimeScale>0.7</TimeScale>
+			<Iterative>0.35</Iterative>
+			<NameGenerator>Hack</NameGenerator>
+		</Category>
+	</Categories>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>AI</Name>
+			<Description>This is the "brain" of the virus. It makes it work.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>system</Category>
+		</Feature>
+		<Feature From="AI">
+			<Name>Better AI</Name>
+			<Description>This is an even better AI that makes the maleware better.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">GUI</Dependency>
+			<Category>system</Category>
+		</Feature>
+		<Feature From="TRUE">
+			<Name>Tracker</Name>
+			<Description>This tracks an OS.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">GUI</Dependency>
+			<Category>system</Category>
+		</Feature>
+		<Feature From="Tracker">
+			<Name>Better Tracker</Name>
+			<Description>This is a better tracker to track an OS.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">GUI</Dependency>
+			<Category>system</Category>
+		</Feature>
+	</Feature>
+	<Feature Forced="TRUE">
+		<Name>GPS</Name>
+		<Description>This shows where the OS is located.</Description>
+		<DevTime>1</DevTime>
+		<Innovation>1</Innovation>
+		<Usability>2</Usability>
+		<Stability>5</Stability>
+		<CodeArt>0.7</CodeArt>
+		<Dependency Software="Operating System">GUI</Dependency>
+		<Category>system</Category>
+	</Feature>
+</Feature>
+<Feature Forced="TRUE">
+	<Name>Range</Name>
+	<Description>This is how far you can track.</Description>
+	<DevTime>1</DevTime>
+	<Innovation>1</Innovation>
+	<Usability>2</Usability>
+	<Stability>5</Stability>
+	<CodeArt>0.8</CodeArt>
+	<Dependency Software="Operating System">GUI</Dependency>
+	<Category>system</Category>
+</Feature>
+</Feature>
+<Feature From="Range">
+	<Name>Advanced Range</Name>
+	<Description>This is an even larger area for you to track an OS.</Description>
+	<DevTime>2</DevTime>
+	<Innovation>1</Innovation>
+	<Usability>2</Usability>
+	<Stability>5</Stability>
+	<CodeArt>1</CodeArt>
+	<Dependency Software="Operating System">GUI</Dependency>
+	<Category>system</Category>
+</Feature>
+	</Features>
+</SoftwareType>
